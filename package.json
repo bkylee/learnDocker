@@ -4,7 +4,8 @@
   "description": "Following along https://medium.com/@antonio.maccarini/dockerize-a-react-application-with-node-js-postgres-and-nginx-124c204029d4 to learn docker, nginx, and full web app tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,6 @@
     "express": "^4.19.2",
     "nodemon": "^3.1.0",
     "pg": "^8.11.3"
-  }
+  },
+  "type": "module"
 }

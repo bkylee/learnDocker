@@ -13,7 +13,7 @@ const client = new Client({
   password: "1234",
   port: 5432,
 });
-client.connect();
+// client.connect();
 
 //create users table
 
@@ -28,6 +28,8 @@ const createTable = async () => {
     );
     `);
 };
+
+// createTable();
 
 //use Express and the middlware to parse the POST method
 
